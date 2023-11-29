@@ -1,0 +1,141 @@
+/* fonts */
+
+:root {
+    --main-font : 'Circular',-apple-system,'BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    --font-color : #000000;
+    --font-weight : 500;
+    --primary-clr : #FF385C;
+    --icon-active: #212222;
+    --icon-notActive: #717171;
+    --description-paragraph : #717171;
+    --button-background-color: #000;
+    --nav-font-size : 15px;
+    --nav-border : 1px solid #000;
+    --nav-border-dropShadow : 5px 5px 5px 5px #717171;
+    --padding-btw-nav: 0px 16px;
+    --white-icons: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0px 50px;
+}
+
+header nav{
+    margin: 19px 39px;
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: var(--nav-font-size);
+    color: var(--font-color);
+    font-weight: var(--font-weight);
+}
+
+#logo{
+    margin: 13px 297px 0px -9px;
+}
+
+header nav #logo img{
+    width: 100px;
+}
+
+.center-nav{
+    border: var(--nav-border);
+    border-radius: 50px;
+    padding: 5px;
+    align-items: center;
+    margin-right: 357px;
+}
+
+.center-nav a{
+    padding: var(--padding-btw-nav);
+    align-items: center;
+    justify-content: center;
+}
+
+.center-nav .search-place{
+    padding: var(--padding-btw-nav);
+    padding-right: 13px;
+}
+
+.center-nav:first-child{
+    padding-left: 8px;
+}
+
+.center-nav .search-place input{
+    border: none;
+    width: 80px;
+    padding-top: 5px;
+    font-family: var(--main-font);
+}
+
+.center-nav .search-place i{
+    background-color: var(--primary-clr);
+    padding:  9px;
+    color: var(--white-icons);
+    border-radius: 50px;
+    font-size: 12px;
+    margin-right: -10px;
+}
+
+header nav .user-nav .user-airbnb{
+    display: flex;
+}
+
+.user-nav .user-airbnb li{
+    padding: 14px 12px;
+}
+
+.user-nav .user-airbnb a{
+    color: #000000;
+    padding-top: 6px;
+}
+
+.user-nav .user-airbnb i{
+    padding-right: 29px;
+    padding-top: 10px;
+}
+
+nav .user-profile{
+    display: flex;
+    border: var(--nav-border);
+    border-radius: 50px;
+}
+
+nav .user-profile a{
+    color: #000000;
+}
+
+nav .user-profile i {
+    font-size : 15px ;
+    padding: 15px 10px;
+}
+
+nav .user-profile .fa-user {
+    background-color: var(--icon-notActive);
+    padding: 10px;
+    border-radius: 50px;
+    align-items: center;
+    color: var(--white-icons);
+    margin: 5px 8px;
+}
+
+#nav-divider{
+    height: 1px;
+}
