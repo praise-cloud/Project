@@ -14,6 +14,8 @@
     --nav-border-dropShadow : 5px 5px 5px 5px #717171;
     --padding-btw-nav: 0px 16px;
     --white-icons: #fff;
+    --icon-image-heigth : 24px;
+    --icon-image-width: 24px;
 }
 
 *{
@@ -137,5 +139,9 @@ nav .user-profile .fa-user {
 }
 
 #nav-divider{
-    height: 1px;
+    border: 1px solid #71717125;
+}
+
+.space{
+    height: 30px;
 }
