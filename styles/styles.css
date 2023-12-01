@@ -4,6 +4,7 @@
     --main-font : 'Circular',-apple-system,'BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
     --font-color : #000000;
     --font-weight : 500;
+    --icon-nav-font: 600;
     --primary-clr : #FF385C;
     --icon-active: #212222;
     --icon-notActive: #717171;
@@ -143,5 +144,43 @@ nav .user-profile .fa-user {
 }
 
 .space{
-    height: 30px;
+    height: 20px;
 }
+
+.icon-nav{
+    display: flex;
+    padding: 0px 50px;
+}
+
+.icon-nav span{
+    padding: 20px;
+}
+
+.icon-nav span .icon-img{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-nav span .icon-img img{
+    width: var(--icon-image-width);
+    height: var(--icon-image-heigth);
+    opacity: 0.5;
+}
+
+.icon-nav span .icon-img-description{
+    padding: 10px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-nav span .icon-img-description p{
+    font-family: var(--main-font);
+    font-weight: var(--icon-nav-font);
+    font-size: 12px;
+    color: var(--description-paragraph);
+}
+
+.icon-img:hover{
+    opacity: 1;
+}
+
