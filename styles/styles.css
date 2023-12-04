@@ -184,3 +184,19 @@ nav .user-profile .fa-user {
     opacity: 1;
 }
 
+.next-arrow{
+    margin: 25px 10px 10px 15px;   
+    align-items: center;
+}
+
+.next-arrow span{
+    /* background-color: var(--description-paragraph); */
+    margin-top: 10px;
+    border: 1px solid var(--description-paragraph);
+    border-radius: 50px;
+    padding: 8px 10px;
+}
+
+.next-arrow span a i{
+    color: var(--font-color);
+}
