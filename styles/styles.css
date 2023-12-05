@@ -52,7 +52,7 @@ header nav ul li a{
 }
 
 #logo{
-    margin: 13px 565px 0px -9px;
+    margin: 13px 590px 0px -9px;
 }
 
 header nav #logo img{
@@ -64,7 +64,7 @@ header nav #logo img{
     border-radius: 50px;
     padding: 5px;
     align-items: center;
-    margin-right: 357px;
+    margin-right: 420px;
 }
 
 .center-nav a{
@@ -202,18 +202,17 @@ nav .user-profile .fa-user {
     color: var(--font-color);
 }
 
-.filter-btn span {
-    padding: 10px 20px;
-    border: 1px solid var(--description-paragraph);
-}
-
 .filter-btn span a{
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--font-color);
     font-weight: var(--font-weight);
-    /* font-size: 16px; */
+    border: 1px solid var(--description-paragraph);
+
+
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 
